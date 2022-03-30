@@ -8,7 +8,7 @@ from omegaconf import OmegaConf
 from typing import Tuple, Union
 from ckconv.nn import FlexConv, CKConv
 from torch.nn import Conv1d, Conv2d
-from srf.nn import Srf_layer_shared
+#from srf.nn import Srf_layer_shared
 
 
 class ResNetBlock(ResidualBlockBase):
